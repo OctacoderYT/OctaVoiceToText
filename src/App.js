@@ -477,7 +477,7 @@ export default function App() {
     };
 
     return () => recognition.stop();
-  }, [language]);
+  }, []);
 
   /* ===============================
      START / STOP
